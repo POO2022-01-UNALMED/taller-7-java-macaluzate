@@ -62,7 +62,9 @@ public class Tesis extends Escrito {
 		return palabrasPagina*5;
 		
 		}
-	
+	public String interpretacion() {
+		return this.interpretacion;
+	}
 	
 	
 	
