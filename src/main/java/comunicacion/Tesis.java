@@ -48,8 +48,8 @@ public class Tesis extends Escrito {
 						 getAutor()+"\n"+
 						 getPaginas()+"\n"+
 						 idea +"\n"+
-						 conclusion+"\n"+
 						 argumentos.length+"\n"+
+						 conclusion+"\n"+
 						 referencias;
 		}
 	
