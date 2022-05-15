@@ -49,7 +49,7 @@ public class Tesis extends Escrito {
 						 getPaginas()+"\n"+
 						 idea +"\n"+
 						 conclusion+"\n"+
-						 argumentos+"\n"+
+						 argumentos.length+"\n"+
 						 referencias;
 		}
 	

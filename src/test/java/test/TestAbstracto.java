@@ -26,7 +26,7 @@ public class TestAbstracto {
 	public static Libro libro = new Libro("Creacion", "El resplandor", "Stephen King", 599, "N/A", "Doubleday", "Primera", "Escrito largo");
 	
 	public static Periodico periodico = new Periodico("Investigacion", "Se encontro la solucion", "Colombiano", 6, "20/12/2020", "Cura del covid", "Escrito informativo");
-	
+	  
 	public static Tesis tesis = new Tesis("Pensamiento expansivo", "Recomendador", "Alejandro", 20, "Recomendar asignaturas", new String [] {"Primero", "Segundo"},
 			"Se hace trabajo futuro", "[1] Maquinaria",  "Escrito investigativo");
 	
