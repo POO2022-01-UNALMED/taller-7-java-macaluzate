@@ -1,7 +1,7 @@
 package comunicacion;
 
 public class Alfabeto extends Pictograma {
-	  private static  String [] letras= {"A"+", "+"B"+", "+"C"+", "+"D"+", "+"E"+", "+"F"+", "+"G"+", "+"H"+", "+"I"+", "+"J"+", "+"K"+", "+"L"+", "+"M"+", "+"N"+", "+"O"+", "+"P"+", "+"Q"+", "+"R"+", "+"S"+", "+"T"+", "+"U"+", "+"V"+", "+"W"+", "+"X"+", "+"Y"+", "+"Z"};
+	  private static  String [] letras;
 	 private String interpretacion;
 	 
 	 
@@ -33,9 +33,9 @@ public class Alfabeto extends Pictograma {
 	
 	
 	
-	public Alfabeto(String origen, String interpretacion) {
+	public Alfabeto(String origen, String[] letras) {
 		super(origen);
-		this.interpretacion = interpretacion;
+		
 	}
 	@Override
 	public String toString() {
