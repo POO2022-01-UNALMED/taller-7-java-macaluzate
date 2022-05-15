@@ -37,7 +37,7 @@ public class Tesis extends Escrito {
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
 	}
-	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String conclusion,
+	public Tesis(String origen, String titulo, String autor, int paginas, String idea,String [] argumentos,String conclusion,
 			String referencias, String interpretacion) {
 		super(origen, titulo, autor, paginas);
 		this.idea = idea;

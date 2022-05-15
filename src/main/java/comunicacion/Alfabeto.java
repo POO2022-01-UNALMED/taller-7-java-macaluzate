@@ -32,6 +32,7 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	
+	
 	public Alfabeto(String origen, String interpretacion) {
 		super(origen);
 		this.interpretacion = interpretacion;
