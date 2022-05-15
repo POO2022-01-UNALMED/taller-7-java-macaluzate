@@ -15,7 +15,7 @@ public class Alfabeto extends Pictograma {
 	
 	public int getcantidadLetras() {
 		
-		return letras.length;
+		return this.letras.length;
 		
 	}
 	public String interpretacion(){
@@ -24,9 +24,7 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	
-	
-	
-	
+
 	
 	public String[] getLetras() {
 		return letras;
