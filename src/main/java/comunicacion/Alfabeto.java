@@ -13,7 +13,7 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	
-	public int getcantidadLetras() {
+	public int cantidadLetras() {
 		
 		return this.letras.length;
 		
