@@ -62,10 +62,11 @@ public class Tesis extends Escrito {
 	this.referencias = referencias;
 	this.interpretacion = interpretacion;
 }
-	public int palabrasTotales(int palabrasPagina) {
-		return palabrasPagina*5;
+	public int palabrasTotales(int palabrasPaginas){
+		return getPaginas()*palabrasPaginas*5;
 		
-		}
+		
+	}
 	public String interpretacion() {
 		return this.interpretacion;
 	}

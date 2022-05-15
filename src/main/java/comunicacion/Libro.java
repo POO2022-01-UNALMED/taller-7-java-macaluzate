@@ -45,7 +45,7 @@ public class Libro extends Escrito{
 	
 	
 	public int palabrasTotales(int palabrasPaginas){
-		return palabrasPaginas*2;
+		return getPaginas()*palabrasPaginas*2;
 		
 		
 	}
