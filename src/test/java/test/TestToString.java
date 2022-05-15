@@ -15,7 +15,7 @@ import comunicacion.Tesis;
 @TestMethodOrder(MethodOrderer.Alphanumeric.class)
 public class TestToString {
 	
-	public static Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente",
+	public static Alfabeto alfabeto = new Alfabeto("alfabeto griego,occidente",
 			new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"},
 			"Alfabeto latino");
 	public static Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2, 
