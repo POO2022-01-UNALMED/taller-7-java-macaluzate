@@ -33,7 +33,7 @@ public class Fabula  extends Escrito{
 				 getTitulo() +"\n"+
 				 getAutor()+"\n"+
 				 getPaginas()+"\n"+
-				 ensenanza+"\n";
+				 ensenanza;
 				 
 				 
 				 

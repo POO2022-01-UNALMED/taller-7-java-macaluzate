@@ -4,6 +4,7 @@ public class Periodico extends Escrito {
 	private String fecha;
 	private String primicia;
 	private String interpretacion;
+	
 	public String getFecha() {
 		return fecha;
 	}
@@ -36,7 +37,7 @@ public class Periodico extends Escrito {
 				 getAutor()+"\n"+
 				 getPaginas()+"\n"+
 				 fecha+"\n"+
-				 primicia+"\n";
+				 primicia;
 	}
 	
 	public String interpretacion() {

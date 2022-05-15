@@ -49,8 +49,7 @@ public class Tesis extends Escrito {
 						 getPaginas()+"\n"+
 						 idea +"\n"+
 						 conclusion+"\n"+
-						 referencias+"\n"
-						 ;
+						 referencias;
 		}
 	
 	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos,
